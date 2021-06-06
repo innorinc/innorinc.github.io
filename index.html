@@ -352,4 +352,13 @@
       </div>
     </footer>
   </body>
+  <script type="text/javascript"> 
+    window.onload = function() { 
+      var bt = document.getElementById('form_bt');
+      bt.onclick = function() {
+        alert('Thank you!');
+        bt.onclick = null;
+      }
+    }
+  </script>
 </html>
