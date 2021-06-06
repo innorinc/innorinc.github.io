@@ -1,0 +1,30 @@
+.m-img { 
+    border-radius: 4px;
+    
+}
+
+/* .m-img_1 {
+    height: 400px;
+} */
+
+.mm_img {
+    opacity: 0.95;
+}
+
+.m-img_2 {
+    height: 400px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    /* .m-img_1 {
+        height: inherit;
+    } */
+
+    .m-img_2 {
+        display: none;
+    }
+}
