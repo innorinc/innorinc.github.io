@@ -1,6 +1,5 @@
 .m-img { 
-    border-radius: 4px;
-    
+    border-radius: 4px
 }
 
 /* .m-img_1 {
@@ -16,7 +15,31 @@
 }
 
 
+.header_logos {
+    /* width: 100px; */
+}
 
+.header_logos > a {
+    display: inline-block;
+}
+
+.gli_mark_a {
+    /* border: 1px solid white; */
+    width: 110px;
+    margin-left: 12px;
+    padding-top: 6px;
+}
+
+/* .gli_mark_img {
+    margin-top: 10px;
+} */
+
+.adult_img {
+    min-width:  20px!important;
+    height:  20px!important;
+    display: inline-block;
+    margin-top: 8px;
+}
 
 @media screen and (max-width: 600px) {
 
